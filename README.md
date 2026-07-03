@@ -7,7 +7,6 @@
 [![Next.js](https://img.shields.io/badge/Next.js-16.2-black?logo=next.js)](https://nextjs.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.x-blue?logo=typescript)](https://www.typescriptlang.org/)
 [![Groq](https://img.shields.io/badge/LLM-Groq%20Llama--3.3--70B-orange)](https://groq.com/)
-[![VNG Prompt to Play 2026](https://img.shields.io/badge/Hackathon-VNG%20Prompt%20to%20Play%202026-red)](https://vng.com.vn/)
 
 </div>
 
