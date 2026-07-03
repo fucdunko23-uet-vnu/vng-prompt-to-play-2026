@@ -356,8 +356,8 @@ Epilogue: "Đây là... bóng tối sao? Thật... tĩnh lặng..."
 ### Setup
 
 ```bash
-git clone https://github.com/fucdunko23-uet-vnu/vng-prompt-to-play-2026.git
-cd vng-prompt-to-play-2026
+git clone https://github.com/fucdunko23-uet-vnu/aegis-boss-rush.git
+cd aegis-boss-rush
 npm install
 ```
 
@@ -412,7 +412,7 @@ The LLM instruction says "never remove a skill." The server enforces this mechan
 
 ## 👤 About This Project
 
-Built for **VNG Prompt to Play 2026** — a game development hackathon focused on AI-driven gameplay innovation.
+Built as an experiment in AI-driven, emergent game difficulty — where the challenge curve isn't scripted but inferred from how you actually play.
 
 The project explores a specific thesis: **what happens when the difficulty curve is not designed, but *inferred* from player behavior in real-time?** The result is a game that cannot be optimally prepared for, only adapted to — which is, perhaps, the most honest form of challenge design.
 
