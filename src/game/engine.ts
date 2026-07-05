@@ -31,6 +31,7 @@ export class GameEngine {
   private fpsCounter = 0;
   private fpsTimer = 0;
   private running = false;
+  private lastDispatchedTaunt: string = "";
 
   // Track melee hit to prevent multi-hit per swing
   private meleeHitThisSwing = false;
@@ -579,8 +580,9 @@ export class GameEngine {
     // Telemetry update
     this.tracker.update(player, boss, dt);
 
-    // Taunt on boss phase change
-    if (boss.currentTaunt && boss.tauntTimer > 0) {
+    // Taunt on boss phase change — chỉ dispatch 1 lần khi taunt thay đổi, không gọi mỗi frame
+    if (boss.currentTaunt && boss.tauntTimer > 0 && boss.currentTaunt !== this.lastDispatchedTaunt) {
+      this.lastDispatchedTaunt = boss.currentTaunt;
       this.callbacks.onTaunt(boss.currentTaunt);
     }
 
